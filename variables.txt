@@ -1,0 +1,76 @@
+--------------------------------TIPOS PRIMITIVOS DE DADOS----------------------------------------------
+
+--> 3 maneiras básicas para declarar os tipos primitivos
+
+tipos int:
+
+1) int idade = 3;    //integer e o nome da variável
+
+2) int idade = (int) 3;   //conversões, tramitações e especifacações 
+        (o int entre parênteses significa = 'considere isso como inteiro, o nome disso é typecast)
+
+3) Integer idade = new Integer(3); //objeto - Integer está em maiúscula, porque é uma classe (cria um objeto da classe Integer)
+                (wrapper class - invólucro )
+
+
+tipos: float
+
+1) float sal = 1825.54f;    //o f no final significa que é float, se não se colocao java dá erro.  
+
+2) float sal = (float) 1825.54; //o float sal recebe o typecast de float  de 1825.54 (o valor deve ser considerado como float);
+            (este caso é para cuando não põe o 'final no final)
+
+3) Float sal = new Float(1825.54);   //um objeto da classe float
+
+tipo caractere:
+
+1) char letra = 'g'; //declarar com aspas simples, TODO TPO CHAR VA ENTRE ASPAS SIMPLES
+
+2) char letra = (char) 'g'; //recebe o typecast - considere isso como char
+
+3) Character letra = new Character('g');
+
+
+
+tipo boleano:
+
+1) boolean casado = false;
+
+2) boolean casado = (boolean) false;
+
+3) Boolean casado = new Boolean(false);
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Familia          tipo primitivo          classe invólucra       tamanho                 exemplo
+
+Lógico             boolean                Boolean                1 bit                  true
+
+Literais           char                   Character              1 Byte(8 bits)         'A'    
+
+                    -                     String                 1 byte/cada letra       "JAVA"   (4 bytes na memória)
+
+Inteiros            byte                   Byte                  1 byte                  127 
+
+                    short                  Short                 2 bytes                32 767  
+
+                    int                    Integer               4 bytes                2 147 483
+
+                    long                   Long                  8 bytes                2^63  (limite de valor)
+
+Reais               float                  Float                 4 bytes                3.4e^38  (limite decimal)
+                 
+                    double                 Double                8 bytes                1.8e^308 (limite decimal)
+
+
+------------------------------------------------------------------------------------------------------------------------                           
+
+OBS: 
+    #String usa sempre aspas duplas.
+    # 127 é o maior número guardado em 1 byte.
+    # 32 767 é o limite, ou maior valor para um short.
+    # 2 147 483 é o limite de Integer
+
+    # o JAVA tem tantos números primitivos a fim  de economizar memória, já que roda em diferentes sistemas e 
+    a pessoa deve se adecuar a memória do próprio sistema, se tem muito memória ou não. 
+

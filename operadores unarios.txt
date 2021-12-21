@@ -1,0 +1,9 @@
+		
+
+
+		Operadores Unários
+
+++ 	Incremento	a++	a = a + 1
+--	Decremento	a--	a = a - 1
+
+A posição influencia no resultado, 

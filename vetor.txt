@@ -1,0 +1,15 @@
+int n [] = new  int [4];
+
+n[0] = 3;
+n[1] = 5;
+n[2] = 8;
+n[3] = 2;
+
+
+Obs: Eu acho essa parte boa para quando tenha que criar os dados, por exemplo, o comprimento do vetor é um input
+e usando um for menor que o comprimento, possa mandar os valores para cada lugar. É um bom exercício.  
+----------
+
+int n[] = {3, 5, 8, 2};
+ou
+int[] n = {3, 5, 8, 2};

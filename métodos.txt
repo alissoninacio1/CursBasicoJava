@@ -1,0 +1,8 @@
+se eu chamo uma função/método dentro do executor padrão, que é o main (método ou função main), e este 
+main é estático, o meu método chamado deve ser convertido para estático adicionando a palavra  static em frente.
+
+Nao posso chamar um método não-estático dentro de um método estático. 
+
+Em Python, eu tinha várias classes dentro de um mesmo arquivo (eu podia usar arquivos separados desde que eu a importasse), no Java, 
+o nome da classe deve ser idêntica ao do arquivo (The name of the java file must match the class name).
+Em Java as classes estão fora do arquivo (em JS estão todas no mesmo arquivo)
